@@ -30,10 +30,9 @@ def get_service_version_tcp(ip, port):
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
             sock.settimeout(TIMEOUT)
             sock.connect((ip, port))
-            # Send a custom header to identify the scan
-            sock.sendall(b'GET / HTTP/1.1\r\nUser-Agent: h3st4k3r-port-scan\r\n\r\n')
+            sock.sendallsock.sendall(b'Hello h3st4k3r\r\n')
             banner = sock.recv(1024).decode().strip()
-            open_ports.append((port, "TCP"))  # Add to summary table
+            open_ports.append((port, "TCP")) 
             return f"TCP {port} open - Version: {banner}"
     except Exception:
         return None
