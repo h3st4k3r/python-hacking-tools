@@ -1,4 +1,4 @@
-# h3st4k3r-port-scan
+# Port Scanner
 
 **h3st4k3r-port-scan** is a fast and customizable Python port scanner designed to identify open TCP and UDP ports and retrieve basic version information from services when available. This tool is intended for ethical hackers and security professionals who need a quick overview of active services on a target machine.
 
