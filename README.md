@@ -15,4 +15,5 @@ To run the script, provide an IP address as a parameter. If no IP address is pro
 python port-scan.py <IP>
 ```
 
-![Output](https://github.com/user-attachments/assets/b971748e-ade2-4714-89f9-ff5d21c82b02)
+![Output](https://github.com/user-attachments/assets/ca60bfae-c836-4984-b88b-4a1c64f1c036)
+
